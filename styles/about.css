@@ -38,21 +38,22 @@
     }
 }
 
-.about-block p:last-child {
+.about-block:not(.rounded-corners) p:last-child {
     color: darkgreen;
+    font-weight: bold;
 }
 
 .about-block.rounded-corners img {
     border-radius: 20px !important;
 }
 
-.about-block:not(.rounded-corners) p:first-child {
-    font-weight: bold;
+.about-block:not(.rounded-corners) h1:first-child {
+    /* font-weight: bold; */
     text-decoration: underline;
 }
 
-.about-block.rounded-corners p:first-child {
-    font-weight: bold;
+.about-block.rounded-corners h1:first-child {
+    text-decoration: underline;
 }
 
 .about-block.rounded-corners p:last-child {
