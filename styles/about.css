@@ -2,3 +2,59 @@
   .about-page {
     background-color: white;
   }
+
+.about-block {
+      display: block;
+}
+
+.about-block > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-block img {
+    width: 75%;
+}
+
+/* .about-block p:not(:last-child) picture img {
+    border-radius: 50%;
+} */
+
+@media (min-width: 900px) {
+    .about-block > div {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: unset;
+    }
+
+    .about-block > div > div {
+        flex: 1;
+        margin-left: 32px;
+    }
+
+    .about-block > div > div:first-of-type {
+        margin-left: unset;
+    }
+}
+
+.about-block p:last-child {
+    color: darkgreen;
+}
+
+.about-block.rounded-corners img {
+    border-radius: 20px !important;
+}
+
+.about-block:not(.rounded-corners) p:first-child {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.about-block.rounded-corners p:first-child {
+    font-weight: bold;
+}
+
+.about-block.rounded-corners p:last-child {
+    color: red;
+}
