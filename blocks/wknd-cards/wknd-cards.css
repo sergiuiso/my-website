@@ -1,0 +1,64 @@
+.wknd-cards > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 16px;
+}
+
+.wknd-cards > ul > li {
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+}
+
+.wknd-cards .wknd-cards-card-body {
+    margin: 16px;
+}
+
+.wknd-cards .wknd-cards-card-image {
+    line-height: 0;
+}
+
+.wknd-cards .wknd-cards-card-body > *:first-child {
+    margin-top: 0;
+}
+
+.wknd-cards > ul > li img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 164px;
+    width: 164px;
+}
+
+.wknd-cards-card-body > h3 {
+    font-family: Asar,Georgia,Times New Roman,Times,serif;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    font-size: 24px;
+}
+
+.wknd-cards-card-body > h5 {
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    font-size: 13px;
+    line-height: 1.5;
+    display: block;
+}
+
+.wknd-cards-card-body > p {
+    display: inline-table;
+}
+
+.wknd-cards-card-body > p > a {
+    background-color: #202020;
+    color: #ebebeb;
+    padding: 15px;
+}

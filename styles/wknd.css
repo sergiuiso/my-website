@@ -1,0 +1,34 @@
+  
+.wknd-page {
+    background-color: white;
+  }
+
+/* #about-us { */
+.about-us {
+    font-family: Asar,Georgia,Times New Roman,Times,serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 27px;
+    margin-bottom: 50px;
+}
+
+.our-contributors {
+    font-family: Asar,Georgia,Times New Roman,Times,serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 27px;
+    margin-bottom: 13.5px;
+}
+
+#our-contributors:after {
+    display: block;
+    width: 84px;
+    padding-top: 8px;
+    content: "";
+    border-bottom: 2px solid #ffea00;
+}
+
+p em {
+    font-size: 14px;
+    font-style: italic;
+}
