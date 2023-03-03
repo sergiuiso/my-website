@@ -1,6 +1,7 @@
   
 .wknd-page {
     background-color: white;
+    max-width: 105pc;
   }
 
 /* #about-us { */
@@ -12,15 +13,15 @@
     margin-bottom: 50px;
 }
 
-.our-contributors {
+.contributors-and-guides {
     font-family: Asar,Georgia,Times New Roman,Times,serif;
     font-size: 36px;
     font-weight: 400;
-    margin-top: 27px;
     margin-bottom: 13.5px;
+    margin-top: 0px;
 }
 
-#our-contributors:after {
+.contributors-and-guides:after {
     display: block;
     width: 84px;
     padding-top: 8px;
@@ -31,4 +32,11 @@
 p em {
     font-size: 14px;
     font-style: italic;
+}
+
+
+
+/* FOOTER */
+.wknd-page footer {
+    background-color: darkred;
 }
