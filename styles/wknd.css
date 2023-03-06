@@ -4,39 +4,7 @@
     max-width: 105pc;
   }
 
-/* #about-us { */
-.about-us {
-    font-family: Asar,Georgia,Times New Roman,Times,serif;
-    font-size: 40px;
-    font-weight: 400;
-    margin-top: 27px;
-    margin-bottom: 50px;
-}
-
-.contributors-and-guides {
-    font-family: Asar,Georgia,Times New Roman,Times,serif;
-    font-size: 36px;
-    font-weight: 400;
-    margin-bottom: 13.5px;
-    margin-top: 0px;
-}
-
-.contributors-and-guides:after {
-    display: block;
-    width: 84px;
-    padding-top: 8px;
-    content: "";
-    border-bottom: 2px solid #ffea00;
-}
-
-p em {
-    font-size: 14px;
-    font-style: italic;
-}
-
-
-
 /* FOOTER */
 .wknd-page footer {
-    background-color: darkred;
+    background-color: rgb(244, 194, 194);
 }

@@ -1,0 +1,85 @@
+
+#faqs {
+    font-family: Asar,Georgia,Times New Roman,Times,serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 27px;
+    margin-bottom: 13.5 px;
+}
+
+#faqs:after {
+    display: block;
+    width: 84px;
+    padding-top: 8px;
+    content: "";
+    border-bottom: 2px solid #ffea00;
+}
+
+.faqs-image picture img {
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.faqs-image-container p {
+    margin: 0 0 13.5px;
+    font-size: 18px;
+    line-height: 2.5;
+    text-align: justify;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #202020;
+}
+
+.accordion {
+    background-color: white;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+    outline: none;
+    /* transition: 0.4s; */
+    border-radius: 0;
+    padding: 13px;
+
+    margin: 0;
+    font-weight: 550;
+    line-height: 1.5;
+    color: #202020;
+
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1pc;
+    text-transform: uppercase;
+  }
+
+  .accordion-button-border-hidden {
+    border: none;
+  }
+
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active, .accordion:hover, .accordion:focus {
+    background-color: white;
+
+  }
+
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .faqs-accordion-body p {
+    font-size: 14px;
+    line-height: 1.75;
+  }
