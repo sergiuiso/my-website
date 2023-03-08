@@ -1,3 +1,12 @@
+.wknd-faqs-page {
+    background-color: white;
+    max-width: 105pc;
+}
+
+/* FOOTER */
+.wknd-faqs-page footer {
+    background-color: rgb(244, 194, 194);
+}
 
 #faqs {
     font-family: Asar,Georgia,Times New Roman,Times,serif;
@@ -15,7 +24,7 @@
     border-bottom: 2px solid #ffea00;
 }
 
-.faqs-image picture img {
+.faqs-image img {
     width: 100%;
     margin-top: 7px;
     margin-bottom: 7px;
@@ -82,4 +91,46 @@
   .faqs-accordion-body p {
     font-size: 14px;
     line-height: 1.75;
+  }
+
+  /* split page in columns */
+  .wknd-faqs-page main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 105pc;
+    margin: 0 auto;
+  }
+
+  .wknd-faqs-page main > div {
+    /* width: 50%; */
+    margin-left: 15rem;
+  }
+
+  .wknd-faqs-page main > div:nth-child(2) {
+    width: 50%;
+    margin-left: 3%;
+    margin-top: 1.5%;
+  }
+
+  .faqs-image-container {
+    margin-right: 2%;
+  }
+
+  #need-more-help {
+    font-size: 24px;
+    font-family: Asar,Georgia,Times New Roman,Times,serif;
+    font-weight: 400;
+    margin-top: 27px;
+    margin-bottom: 13.5px;
+    line-height: 1.5;
+    color: #202020;
+  }
+
+  .faqs-need-help p {
+    font-size: 14px;
+    margin: 0 0 13.5px;
+    text-align: justify;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
   }

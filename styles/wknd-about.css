@@ -27,3 +27,13 @@ p em {
     font-size: 14px;
     font-style: italic;
 }
+
+.wknd-about-page {
+    background-color: white;
+    max-width: 105pc;
+  }
+
+/* FOOTER */
+.wknd-about-page footer {
+    background-color: rgb(244, 194, 194);
+}
